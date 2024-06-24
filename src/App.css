@@ -14,8 +14,9 @@
 :root{
   --bg-color:#1f242d;
   --second-bg-color:#323946;
+  
   --text-color:#fff;
-  --main-color:#0ef;
+  --main-color:#21EB28;
 };
 
 .html{
@@ -80,6 +81,7 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
+  background: var(--bg-color);
 }
 
 .home-img img{
@@ -180,6 +182,10 @@ span{
 
 .services h2{
   margin-bottom: 5rem;
+}
+
+.services{
+  background: var(--bg-color);
 }
 
 .services-container{
@@ -294,6 +300,10 @@ span{
 .portfolio-layer a i{
   font-size: 2rem;
   color: var(--second-bg-color);
+}
+
+.contact{
+  background: var(--bg-color);
 }
 
 .contact h2{

@@ -204,7 +204,7 @@ function App() {
         <h2 className='heading'>Latest<span>Project</span></h2>
         <div className='portfolio-container'>
           <div className='portfolio-box'>
-            <img src="/public/ToDoapp.png" alt="Portfolio 1" />
+            <img src="/public/ToDoapp.webp" alt="Portfolio 1" />
             <div className='portfolio-layer'>
               <h4>To Do List</h4>
               <p>Pequeña web donde se puede tener una lista de tareas, marcarlas y eliminarlas.</p>
@@ -212,7 +212,7 @@ function App() {
             </div>
           </div>
           <div className='portfolio-box'>
-            <img src="/public/shopStore.png" alt="Portfolio 2" />
+            <img src="/public/shopStore.webp" alt="Portfolio 2" />
             <div className='portfolio-layer'>
               <h4>ShopStore</h4>
               <p>Presentacion de producto de tienda virtual, con diseño responsive.</p>
@@ -220,7 +220,7 @@ function App() {
             </div>
           </div>
           <div className='portfolio-box'>
-            <img src="/public/WeatherApp.png" alt="Portfolio 3" />
+            <img src="/public/WeatherApp.webp" alt="Portfolio 3" />
             <div className='portfolio-layer'>
               <h4>Weather App</h4>
               <p>Web que nos brinda el pronostico del clima, de cinco dias segun locacion.</p>
@@ -228,7 +228,7 @@ function App() {
             </div>
           </div>
           <div className='portfolio-box'>
-            <img src="/public/AirBNBapp.png" alt="Portfolio 4" />
+            <img src="/public/AirBNBapp.webp" alt="Portfolio 4" />
             <div className='portfolio-layer'>
               <h4>AirBNB</h4>
               <p>Web de busqueda de AirBNB con barra de busqueda con filtro de ciudad y huespedes</p>
@@ -236,7 +236,7 @@ function App() {
             </div>
           </div>
           <div className='portfolio-box'>
-            <img src="/public/CalculadoraApp.png" alt="Portfolio 5" />
+            <img src="/public/CalculadoraApp.webp" alt="Portfolio 5" />
             <div className='portfolio-layer'>
               <h4>Tip Calculator</h4>
               <p>Calculadora para propinas.</p>
@@ -244,7 +244,7 @@ function App() {
             </div>
           </div>
           <div className='portfolio-box'>
-            <img src="/public/BlogApp.png" alt="Portfolio 6" />
+            <img src="/public/BlogApp.webp" alt="Portfolio 6" />
             <div className='portfolio-layer'>
               <h4>Blog Informativo</h4>
               <p>Blog con diseño responsive</p>

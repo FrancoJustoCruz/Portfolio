@@ -3,6 +3,12 @@ import ScrollReveal from 'scrollreveal';
 import Typed from 'typed.js';
 import emailjs from 'emailjs-com';
 import './App.css';
+import img1 from '../public/ToDoapp.png'
+import img2 from '../public/shopStore.png'
+import img3 from '../public/WeatherApp.png'
+import img4 from '../public/AirBNBapp.png'
+import img5 from '../public/CalculadoraApp.png'
+import img6 from '../public/BlogApp.png'
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -204,7 +210,7 @@ function App() {
         <h2 className='heading'>Latest<span>Project</span></h2>
         <div className='portfolio-container'>
           <div className='portfolio-box'>
-            <img src="/public/ToDoapp.webp" alt="Portfolio 1" />
+            <img src={img1} alt="Portfolio 1" />
             <div className='portfolio-layer'>
               <h4>To Do List</h4>
               <p>Pequeña web donde se puede tener una lista de tareas, marcarlas y eliminarlas.</p>
@@ -212,7 +218,7 @@ function App() {
             </div>
           </div>
           <div className='portfolio-box'>
-            <img src="/public/shopStore.webp" alt="Portfolio 2" />
+            <img src={img2} alt="Portfolio 2" />
             <div className='portfolio-layer'>
               <h4>ShopStore</h4>
               <p>Presentacion de producto de tienda virtual, con diseño responsive.</p>
@@ -220,7 +226,7 @@ function App() {
             </div>
           </div>
           <div className='portfolio-box'>
-            <img src="/public/WeatherApp.webp" alt="Portfolio 3" />
+            <img src={img3} alt="Portfolio 3" />
             <div className='portfolio-layer'>
               <h4>Weather App</h4>
               <p>Web que nos brinda el pronostico del clima, de cinco dias segun locacion.</p>
@@ -228,7 +234,7 @@ function App() {
             </div>
           </div>
           <div className='portfolio-box'>
-            <img src="/public/AirBNBapp.webp" alt="Portfolio 4" />
+            <img src={img4} alt="Portfolio 4" />
             <div className='portfolio-layer'>
               <h4>AirBNB</h4>
               <p>Web de busqueda de AirBNB con barra de busqueda con filtro de ciudad y huespedes</p>
@@ -236,7 +242,7 @@ function App() {
             </div>
           </div>
           <div className='portfolio-box'>
-            <img src="/public/CalculadoraApp.webp" alt="Portfolio 5" />
+            <img src={img5} alt="Portfolio 5" />
             <div className='portfolio-layer'>
               <h4>Tip Calculator</h4>
               <p>Calculadora para propinas.</p>
@@ -244,7 +250,7 @@ function App() {
             </div>
           </div>
           <div className='portfolio-box'>
-            <img src="/public/BlogApp.webp" alt="Portfolio 6" />
+            <img src={img6} alt="Portfolio 6" />
             <div className='portfolio-layer'>
               <h4>Blog Informativo</h4>
               <p>Blog con diseño responsive</p>
